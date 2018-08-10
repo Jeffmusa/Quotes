@@ -14,9 +14,11 @@ import { QuoteDetailsComponent } from './quote-details/quote-details.component';
     QuoteFormComponent,
     QuoteComponent,
     QuoteDetailsComponent
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

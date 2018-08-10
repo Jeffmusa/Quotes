@@ -1,6 +1,13 @@
 <h1>QUOTES</h1>
 <div class="container">
     <div class="row">
-
+      <ul class='list-group'>
+        <li class="list-group-item" *ngFor='let item of QUOTES'>
+          {{ item }}
+        </li>
+        <li class="list-group-item">
+        </li>
+        <li class="list-group-item"><button type="button" class="btn btn-info" (click)='addNewQuote()' name="button">Add Quote</button> </li>
+      </ul>
     </div>
 </div>

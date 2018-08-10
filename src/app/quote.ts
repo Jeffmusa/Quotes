@@ -1,4 +1,6 @@
 export class Main {
   public showDescription:boolean
-  constructor(public)
+  constructor(public name:string){
+    this.showDescription=false
+  }
 }
