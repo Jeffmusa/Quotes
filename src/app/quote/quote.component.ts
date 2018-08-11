@@ -10,7 +10,7 @@ export class QuoteComponent implements OnInit {
 
   quotes = [
        new Quote(1,'Live simply to let others simply live','Jeff Musa' ),
-       new Quote(2,'Eat','If you love eating please do it','Robert' ),
+       new Quote(2,'Eat ''If you love eating please do it','Robert' ),
        new Quote(3, 'Persistence will lead to success','Dreams' ),
 
    ]
@@ -20,6 +20,7 @@ export class QuoteComponent implements OnInit {
           this.quotes.push(quote)
 
       }
+
 
   constructor() { }
 
