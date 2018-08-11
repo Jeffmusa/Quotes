@@ -1,13 +1,13 @@
 <h1>QUOTES</h1>
-<div class="container">
-    <div class="row">
-      <ul class='list-group'>
-        <li class="list-group-item" *ngFor='let item of QUOTES'>
-          {{ item }}
-        </li>
-        <li class="list-group-item">
-        </li>
-        <li class="list-group-item"><button type="button" class="btn btn-info" (click)='addNewQuote()' name="button">Add Quote</button> </li>
+<div class="row">
+<div class="col md-6">
+  <app-quote-form  (addQuote)="addNewGoal($event)"></app-quote-form>
+</div>
+    <div class="col md-6">
+      <ul>
+      <li style="text-decoration:none;" *ngFor='let quote of quotes'>{{quote.name}}</li>
+      <button class="btn btn-success" (click)='toogleDetails(i)'>Show Details</button>
+
       </ul>
     </div>
 </div>
