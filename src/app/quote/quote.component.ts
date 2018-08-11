@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FormsModule} from '@angular/forms';
+import {Quote} from '../quote'
+
 @Component({
   selector: 'app-quote',
   templateUrl: './quote.component.html',
@@ -8,12 +9,19 @@ import { FormsModule} from '@angular/forms';
 export class QuoteComponent implements OnInit {
 
   quotes = [
+       new Quote(1,'Live simply to let others simply live','Jeff Musa' ),
+       new Quote(2,'Eat ''If you love eating please do it','Robert' ),
+       new Quote(3, 'Persistence will lead to success','Dreams' ),
 
-  ];
-  // quotes= null;
-  addNewQuote(){
-  // this.quotes.push(quote)
-}
+   ]
+   addNewQuote(quote){
+          let quoteLength = this.quotes.length;
+          quote.id=quoteLength+1;
+          this.quotes.push(quote)
+
+      }
+
+
   constructor() { }
 
   ngOnInit() {
