@@ -1,0 +1,9 @@
+div.button {
+  margin-bottom: .5em;
+}
+div.button button:focus,
+div.button button:active{
+  border-color: black;
+  border-style: solid;
+  background: yellow;
+}

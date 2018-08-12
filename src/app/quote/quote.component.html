@@ -10,7 +10,7 @@
       <h4>{{quote.name}}</h4>
 
 
-        <button  (click)='toogleDetails(i)'>Quote Details</button>
+        <button class="btn btn-success"  (click)='toogleDetails(i)'>Quote Details</button>
 
       <div>
          <app-quote-details  *ngIf="quote.showDescription" [quote]='quote'></app-quote-details>

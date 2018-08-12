@@ -1,3 +1,7 @@
 <p>Author name:{{quote.author}}</p>
-<button class="btn btn-success" (click)='upVote()'> Like!{{quote.upVotes}} </button>
-<button class="btn btn-danger" (click)='downVote()'> Dislike!{{quote.downVotes}} </button>
+<p>User name:{{quote.user}}</p>
+<div class="button">
+<button class="btn btn-success" (click)='upVote()' click> Upvotes {{quote.upVotes}} </button>
+<button class="btn btn-primary" (click)='downVote()' click>Downvotes {{quote.downVotes}} </button>
+</div>
+  <button class="btn btn-danger" (click) = 'quoteDelete(true)'> Delete Quote</button>

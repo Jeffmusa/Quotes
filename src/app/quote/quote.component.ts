@@ -9,9 +9,9 @@ import {Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
   quotes = [
-       new Quote(1,'If you love eating please do it ','jeff',10,20 ),
-       new Quote(1,'If you love eating please do it ','jeff',10,20 ),
-       new Quote(1,'If you love eating please do it ','jeff',10,20),
+       new Quote(1,'If you love eating please do it ','jeff',"ken",0,0 ),
+       new Quote(1,'If you love eating please do it ','jeff',"sam",0,0 ),
+       new Quote(1,'If you love eating please do it ','jeff',"tom",0,0),
 
    ]
    toogleDetails(index){
@@ -19,7 +19,6 @@ export class QuoteComponent implements OnInit {
   }
    addNewQuote(quote){
           let quoteLength = this.quotes.length;
-          quote.creation = new Date();
           quote.id=quoteLength+1;
           this.quotes.push(quote)
 
