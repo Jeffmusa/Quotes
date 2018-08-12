@@ -11,3 +11,9 @@ You can get this application on your device by cloning or forking the repository
 ## Application live site.
 
 To view this application,click on [Quotes](https://jeffmusa.github.io/Quotes/).
+
+### License
+
+*This software is Licensed under the MIT License.*
+
+Copyright (c) 2018 **_Jeff Musa_**
