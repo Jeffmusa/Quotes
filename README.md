@@ -5,8 +5,9 @@ This is an application for users to make new quotes,upvote or downvote the quote
 
 ## Installation
 
-You can get this application on your device by cloning or forking the repository on github.
-
+* _You will need first to have node,npm, tsc and watchman installed._
+* _Clone this repository from my Github account jeffmusa_
+* _Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files._
 
 ## Application live site.
 

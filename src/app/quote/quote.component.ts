@@ -10,7 +10,7 @@ export class QuoteComponent implements OnInit {
 
   quotes = [
        new Quote(1,'No man stands alone ','jeff',"ken",0,0 ),
-       new Quote(1,'If you love eating please do it ','jeff',"sam",0,0 ),
+       new Quote(1,'Its very simple.Just cut,place and roll ','jeff',"sam",0,0 ),
        new Quote(1,'If you love eating please do it ','jeff',"tom",0,0),
 
    ]
@@ -25,15 +25,16 @@ export class QuoteComponent implements OnInit {
       }
 
       deleteQuote(isComplete,index){
-    if (isComplete){
-        let toDelete=confirm(`Are you sure you want to delete ${this.quotes[index].name}`)
-        alert(`Your goal  "${this.quotes[index].name}" has been deleted`)
+            if (isComplete){
+                let toDelete=confirm(`Are you sure you want to delete this quote?`)
+                alert(`${this.quotes[index].user},your quote has been deleted!!`)
 
-        if(toDelete){
-            this.quotes.splice(index,1)
+                if(toDelete){
+                    this.quotes.splice(index,1)
+                }
+            }
         }
-    }
-}
+
 
   constructor() { }
   ngOnInit() {
