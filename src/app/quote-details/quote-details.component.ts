@@ -12,7 +12,7 @@ export class QuoteDetailsComponent implements OnInit {
       @Output() isComplete= new EventEmitter<boolean>();
 
       upVote() {
-        this.quote.upVotes ++
+        this.quote.upVotes ++ 
       }
 
       downVote() {
