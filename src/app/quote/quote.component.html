@@ -1,10 +1,11 @@
-<h1 style="color:green;">QUOTES</h1>
+<h1 style="color:lightblue;">GREAT QUOTES</h1>
 <div class="container">
 <div class="row">
   <div class="col md-6" id="form">
     <app-quote-form  (addQuote)="addNewQuote($event)"></app-quote-form>
   </div>
   <div class="col md-6" id="quote">
+    <h2 style="text-decoration:underline;"><b>"Quotes"</b></h2>
     <div class="" *ngFor="let quote of quotes;let i = 'index'">
 
       <h4>{{quote.name}}</h4>

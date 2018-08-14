@@ -1,5 +1,9 @@
 # Quotes
 
+#### By _**Jeff Musa**_
+
+
+## Description
 This is an application for users to make new quotes,upvote or downvote the quotes,delete quotes and see the number of downvotes or upvotes for each quote.  
 
 
@@ -12,6 +16,11 @@ This is an application for users to make new quotes,upvote or downvote the quote
 ## Application live site.
 
 To view this application,click on [Quotes](https://jeffmusa.github.io/Quotes/).
+
+## Technologies Used
+
+* Angular JS
+* HTML & CSS
 
 ### License
 
