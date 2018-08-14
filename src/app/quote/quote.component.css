@@ -5,6 +5,7 @@
 }
 #form:hover{
   background-color:;
+
 }
 #quote{
   background-color:lightblue;
@@ -12,7 +13,13 @@
 }
 #quote:hover{
   background-color:;
+
 }
 h1{
   font-family: 'Shojumaru', cursive;
+}
+
+h3{
+  font-family: 'Dancing Script', cursive;
+color:lightblue;
 }
