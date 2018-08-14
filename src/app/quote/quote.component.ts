@@ -10,7 +10,7 @@ export class QuoteComponent implements OnInit {
 
   quotes = [
        new Quote(1,'No man stands alone ','jeff',"ken",0,0 ),
-       new Quote(1,'Its very simple.Just cut,place and roll ','jeff',"sam",0,0 ),
+       new Quote(1,'Its very simple.Just cut,place and roll.Stay safe. ','jeff',"sam",0,0 ),
        new Quote(1,'If you love eating please do it ','jeff',"tom",0,0),
 
    ]

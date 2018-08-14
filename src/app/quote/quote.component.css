@@ -1,15 +1,17 @@
+/* hover effects can be added */
+
 #form{
   background-color:lightgreen;
 }
 #form:hover{
-  background-color:lightblue;
+  background-color:;
 }
 #quote{
   background-color:lightblue;
   font-family: 'Laila', serif;
 }
 #quote:hover{
-  background-color:lightgreen;
+  background-color:;
 }
 h1{
   font-family: 'Shojumaru', cursive;
