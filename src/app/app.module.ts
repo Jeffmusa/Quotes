@@ -14,7 +14,7 @@ import { QuoteDetailsComponent } from './quote-details/quote-details.component';
     AppComponent,
     QuoteFormComponent,
     QuoteComponent,
-    QuoteDetailsComponent
+    QuoteDetailsComponent,
 
   ],
   imports: [
