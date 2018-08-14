@@ -1,6 +1,16 @@
 #form{
-  background-color:grey;
+  background-color:lightgreen;
+}
+#form:hover{
+  background-color:lightblue;
 }
 #quote{
   background-color:lightblue;
+  font-family: 'Laila', serif;
+}
+#quote:hover{
+  background-color:lightgreen;
+}
+h1{
+  font-family: 'Shojumaru', cursive;
 }

@@ -1,7 +1,9 @@
+<div class="container">
 <p>Author name:{{quote.author}}</p>
 <p>User name:{{quote.user}}</p>
 <div class="button">
-<button class="btn btn-success" (click)='upVote()' click>Upvotes {{quote.upVotes}} </button>
-<button class="btn btn-primary" (click)='downVote()' click><img width="30" height="30" src="https://idmd.ca/wp-content/uploads/2016/06/thumbsdown.png"> {{quote.downVotes}} </button>
+<button class="btn btn-success" (click)='upVote()' click><img width="30" height="30" src="https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/thumbs-up-circle-blue-512.png" alt=""> {{quote.upVotes}} </button>
+<button class="btn btn-danger" (click)='downVote()' click><img width="30" height="30" src="https://idmd.ca/wp-content/uploads/2016/06/thumbsdown.png"> {{quote.downVotes}} </button>
 </div>
-<button class="btn btn-danger" (click) = 'quoteDelete(true)'> Delete Quote </button>
+<button class="btn btn-danger" (click) = 'quoteDelete(true)'><img height="40" width="40" src="https://png.icons8.com/small/1600/filled-trash.png" alt=""> </button>
+</div>
