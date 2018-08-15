@@ -22,7 +22,7 @@ export class QuoteDetailsComponent implements OnInit {
       }
 
       downVote() {
-        this.quote.downVotes ++
+        this.quote.upVotes --
       }
 
 
